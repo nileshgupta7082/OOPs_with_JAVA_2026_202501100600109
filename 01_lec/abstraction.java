@@ -8,3 +8,7 @@ public class abstraction {
 // an abstract class may have variables, abstract methods and concreate methods,
 // method with bodyyyyyy------------
 // an interface may have abstract variables, abstract methods and concreate methods which are either DEFAULLT or static.
+
+
+
+//abstract class cannot be instanceciated
