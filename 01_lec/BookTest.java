@@ -1,5 +1,8 @@
 public class BookTest {
 
+    public void setPrice(double price) {
+            this.price = price;
+        }
     public static void main(String[] args) {
 
         Book book1 = new Book(
@@ -37,5 +40,6 @@ public class BookTest {
 
         // Total books
         System.out.println("Total books: " + Book.getBookCount());
+        
     }
 }
