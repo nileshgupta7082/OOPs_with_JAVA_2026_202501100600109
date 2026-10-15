@@ -36,6 +36,11 @@ public class PreDefinedException {
         }
 
         sc.close();
+        try {
+            fr.close();
+        } catch (Exception e) {
+            System.out.println("Error closing file: " + e.getMessage());
+        }
     }
 }
 
